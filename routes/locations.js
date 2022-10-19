@@ -16,7 +16,7 @@ const welcomeMessg = {
   name: "Yosniel",
   company: "EIP-Studios",
   message: "welcome to my server",
-  linkedin: "www.linkedin.com/in/ingenieríacubana",
+  linkedin: "https://linkedin.com/in/ingenieríacubana",
   github: "https://github.com/ycabrera90",
 };
 
