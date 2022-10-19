@@ -12,9 +12,12 @@ const SERIES_ENDPOINT = "series";
 const PUBLIC_KEY = process.env.PUBLIC_KEY;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
+const welcomeMessg = { name: "Yosniel", company: 'EIP-Studios', message: "welcome to my server", linkedin:'www.linkedin.com/in/ingenieríacubana', github:'https://github.com/ycabrera90'  }
+
+
 // root api path
 app.get("/", (req, res, next) => {
-  res.json({ message: "welcome to my server" });
+  res.json(welcomeMessg);
 });
 
 app.get("/series", (req, res, next) => {

@@ -1,19 +1,24 @@
-# BACK END PROJECT TEMPLATE
+# [MARVEL APP - BACKEND](https://eip-marvel-app.herokuapp.com/)
+This is a small app to practice the use of NodeJs and APIS consumption.
+You ca find the web design [here](https://eip-marvel-app.web.app/)
 
-## DESCRIPTION
+## Run the dev project
+For run this project you have to follow the next steps:
 
-This template allows you to start a new server side project
+#### `git clone https://github.com/ycabrera90/MarvelApp-bkEnd.git`
 
-## Serve App
+#### `npm install`
 
-##### 1- For seve this app you have to clone this repository in gitHub site. 
-##### 2- For seve this app you have to clone this repository in your host from project URL. 
+#### `npn run start:dev`
 
-##### 3- If you do not have installed node.js you have to install it from its official page https://nodejs.org/en/download/
-##### 4- If you don't have the npm package installed run:
-###### $ npm install -g serve
-##### 5- Install all the dependencies for this project. For this it runs on the console
-###### & npm install 
-##### 6- To serve this app you have 3 options:
-###### $ npn run start      // start the server listening in PORT 3000
-###### $ npn run start:dev  // start the server listening in PORT 3000 and inspect code changes
+## Resources and Features
+- NodeJs
+- Express
+- Dotenv
+- Md5
+- Node-fetch
+
+
+## Read More
+
+- You can find the documentation of the APIS in the following [link](https://developer.marvel.com/).
