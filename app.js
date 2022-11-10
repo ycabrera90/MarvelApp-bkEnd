@@ -1,12 +1,12 @@
-import express from "express";
-import bodyParser from "body-parser";
-import locationRoutes from "./routes/locations.js";
-import * as dotenv from "dotenv";
+const express = require("express");
+const bodyParser = require("body-parser");
 
-// ----------------------------------------------------------------
+const rootPath = require("./routes/root-routes");
+const seriesRoutes = require("./routes/series-routes");
+
+
+
 const app = express();
-const PORT = 3000;
-dotenv.config();
 
 app.use(bodyParser.json());
 
@@ -17,8 +17,10 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use(locationRoutes);
+app.use("/", rootPath);
 
-app.listen(process.env.PORT || PORT);
+app.use("/series", seriesRoutes);
 
-console.log(`Server running at PORT ${PORT}`);
+
+
+app.listen(process.env.PORT || 5000);
