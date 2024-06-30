@@ -1,7 +1,7 @@
 <p align="center">
-  <a href="https://eip-my-summary.web.app/"
+  <a href="https://eip-marvel-app.web.app/"
     ><img
-      src="https://eip-my-summary.herokuapp.com/images/logo"
+      src="https://eip-marvel-app.web.app/project-landing-page.gif"
       alt="EIP Studios"
      />
   </a>
@@ -24,7 +24,7 @@ If you are interested in the frontend side part of this project you can find the
 
 ## Clone and run app
 These instructions will allow you to obtain a copy of the project on your local machine for development and test purposes.
-Look the [**deployment**]() so you can see the final result.
+Look the [**deployment**](https://eip-marvel-app.herokuapp.com/) so you can see the final result.
 
 
 #### Pre-requirements
@@ -32,7 +32,6 @@ For run this project you must have installed the following packages in your loca
 
 * [NodeJs](https://nodejs.org/en/) 
 * [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-* [Nodemon](https://www.npmjs.com/package/nodemon)
 
 #### Clone and serve
 For clone and serve the project you need open a terminal, go to the folder which you want to work and put the follows commands
@@ -42,14 +41,30 @@ git clone https://github.com/ycabrera90/MarvelApp-bkEnd.git
 cd MarvelApp-bkEnd
 
 npm install
-
-npn run start:dev
 ```
 
+After that you have to create a file called **nodemon.json** with the follow structure:
+```
+{
+  "env": {
+    "PRIVATE_KEY": "<your Marvel api private key>",
+    "PUBLIC_KEY": "<your Marvel api public key>",
+  }
+}
+```
 
+You can get the **Marvel api private key** and **Marvel api public key** in you account of [Developer Marvel](https://developer.marvel.com/account).
+
+#### Serve the app.
+For serve the app you need to run the following command:
+```
+npm run dev
+```
+
+Then you can open your browser and go to the following [link](http://localhost:5000).
 
 ## Authors
-* [**Yosniel Cabrera**](https://www.linkedin.com/in/eip-studios/) - *React Developer* 
+* [**Yosniel Cabrera**](https://yosniel-dev.com) - *React Developer* 
   
 ## License
 This project is **public** and only for academic purposes.
