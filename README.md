@@ -10,7 +10,7 @@
 
 
 # Marvel App Backend
-This in a small [endpoint](https://eip-marvel-app.herokuapp.com/) to interact with the Marvel API and serve with data to [web page](https://eip-marvel-app.web.app/).
+This in a small [endpoint](https://marvel-app-api.yosniel-dev.com) to interact with the Marvel API and serve with data to [web page](https://eip-marvel-app.web.app/).
 
 ## Built with
 * [Node.Js](https://nodejs.org/en/docs/) - JavaScript runtime environment
@@ -24,7 +24,7 @@ If you are interested in the frontend side part of this project you can find the
 
 ## Clone and run app
 These instructions will allow you to obtain a copy of the project on your local machine for development and test purposes.
-Look the [**deployment**](https://eip-marvel-app.herokuapp.com/) so you can see the final result.
+Look the [**deployment**](https://marvel-app-api.yosniel-dev.com/) so you can see the final result.
 
 
 #### Pre-requirements
